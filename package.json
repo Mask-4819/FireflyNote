@@ -1,0 +1,31 @@
+{
+  "name": "fireflynote",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "萤火笔记，记录个人笔记内容",
+  "main": "index.js",
+  "bin": {
+    "new-cli": "docs\\_build\\new.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "new": "node docs\\_build\\new.js",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "Vite",
+    "VitePress",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "author": "firefly",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.45"
+  },
+  "devDependencies": {
+    "commander": "^10.0.0"
+  }
+}
