@@ -1,5 +1,5 @@
 import DefaultTheme from "vitepress/theme";
-
+import layout from "./layout.vue"
 export default {
   ...DefaultTheme,
   enhanceApp(ctx) {
@@ -7,6 +7,6 @@ export default {
     DefaultTheme.enhanceApp(ctx);
 
     // register your custom global components
-    ctx.app.component("MyGlobalComponent" /* ... */);
+    ctx.app.component(layout);
   },
 };

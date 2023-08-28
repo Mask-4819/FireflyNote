@@ -8,7 +8,7 @@ export default {
       { text: "工程化", link: "/configs" },
       { text: "HTML+CSS", link: "/configs" },
       { text: "工具使用", link: "/configs" },
-      { text: "面经", link: "/configs" },
+      { text: "后端", link: "/configs" },
     ],
     sidebar: {
       "/Vue/": [
@@ -18,9 +18,11 @@ export default {
           collapsed: false,
           items: [
             // This shows `/guide/index.md` page.
-            { text: "响应式原理", link: "/Vue/" }, // /guide/index.md
-            { text: "实现一个reactive()", link: "/Vue/reactive" }, // /guide/one.md
-            { text: "实现ref()", link: "/Vue/ref" }, // /guide/two.md
+            { text: "响应式原理", link: "/Vue/" },
+            { text: "effect缺陷修复", link: "/Vue/effect1" },
+            { text: "effect功能完善", link: "/Vue/effect2" },
+            { text: "实现computed", link: "/Vue/computed" },
+            { text: "实现watch", link: "/Vue/watch" },
           ],
         },
       ],
