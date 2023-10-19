@@ -4,6 +4,7 @@ export default {
     siteTitle: "FireflyNote",
     nav: [
       { text: "Vue3", link: "/Vue/", activeMatch: "/Vue/" },
+      { text: "TypeScript", link: "/TypeScript/" },
       { text: "有趣的JavaScript", link: "/JavaScript/" },
       { text: "工程化", link: "/configs" },
       { text: "HTML+CSS", link: "/configs" },
@@ -25,7 +26,24 @@ export default {
             { text: "实现watch", link: "/Vue/watch" },
           ],
         },
+        {
+          text: "runtime-core流程",
+          collapsible: false,
+          collapsed: false,
+          items: [
+            // This shows `/guide/index.md` page.
+            { text: "初始化component & element流程", link: "/Vue/initComponent" },
+            { text: "component流程", link: "/Vue/effect1" },
+          ],
+        },
       ],
+      "/TypeScript/": [{
+        text: "TypeScript基础",
+        // collapsible: true,
+        // collapsed: false,
+        link: "/TypeScript/"
+        // items: [{ text: "TypeScript基础", link: "/JavaScript/base/" }],
+      },],
       "/JavaScript/": [
         {
           text: "JavaScript基础",
